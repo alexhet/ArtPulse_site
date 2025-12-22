@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Посетить нас — ArtPulse</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- Navigation -->
+<header class="navbar">
+    <div class="nav-container">
+        <div class="nav-content">
+            <div class="logo"><span>Art</span><span>Pulse</span></div>
+            <div class="nav-links">
+                <a href="index.html">Главная</a>
+                <a href="exhibition.html">Выставки</a>
+                <a href="artist.html">Художники</a>
+                <a href="visit.html">Посетить</a>
+                <a href="#">Коллекции</a>
+            </div>
+            <div class="nav-icons">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-heart heart"></i>
+                <i class="fas fa-user"></i>
+                <i class="fas fa-shopping-cart"></i>
+                <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Hero with YOUR Custom Background Image -->
+<section class="visit-hero">
+    <h1>Посетите ArtPulse — пространство, где технологии встречают эмоции</h1>
+</section>
+
+<!-- Info Cards -->
+<section class="section">
+    <div class="section-container">
+        <div class="visit-details">
+            <div class="detail-card">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Адрес</h3>
+                <p>123 Творческий проспект<br>Нью-Йорк, NY 10001</p>
+            </div>
+            <div class="detail-card">
+                <i class="fas fa-subway"></i>
+                <h3>Метро</h3>
+                <p>5th Ave / 53rd St<br>(линии E, M)</p>
+            </div>
+            <div class="detail-card">
+                <i class="fas fa-clock"></i>
+                <h3>Режим работы</h3>
+                <p>Вторник–Воскресенье<br>11:00–19:00<br>Понедельник — выходной</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Form -->
+<section class="section">
+    <div class="section-container">
+        <div class="contact-form">
+            <h2>Связаться с нами</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Ваше имя</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Сообщение</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                <button type="submit" class="form-btn">Отправить</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-grid">
+            <div class="footer-column">
+                <div class="logo"><span>Art</span><span>Pulse</span></div>
+                <p>Переосмысливаем современное искусство через инновации, эксперименты и видение.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Навигация</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="exhibition.html">Выставки</a></li>
+                    <li><a href="artist.html">Художники</a></li>
+                    <li><a href="visit.html">Посетить</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Связаться</h3>
+                <ul class="footer-links">
+                    <li><a href="https://instagram.com/artpulse">Instagram</a></li>
+                    <li><a href="https://twitter.com/artpulse">Twitter</a></li>
+                    <li><a href="mailto:info@artpulse.gallery">Email</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Посетите нас</h3>
+                <p>123 Творческий проспект<br>Нью-Йорк, NY 10001<br>Вт–Вс, 11:00–19:00</p>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2025 ArtPulse Gallery. Все права защищены.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="js/components/navbar.js"></script>
+<script src="js/components/contact-form.js"></script>
+</body>
+</html>

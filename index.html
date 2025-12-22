@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArtPulse — Галерея современного искусства</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- Navigation -->
+<header class="navbar">
+    <div class="nav-container">
+        <div class="nav-content">
+            <div class="logo"><span>Art</span><span>Pulse</span></div>
+            <div class="nav-links">
+                <a href="index.html">Главная</a>
+                <a href="exhibition.html">Выставки</a>
+                <a href="artist.html">Художники</a>
+                <a href="visit.html">Посетить</a>
+                <a href="#">Коллекции</a>
+            </div>
+            <div class="nav-icons">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-heart heart"></i>
+                <i class="fas fa-user"></i>
+                <i class="fas fa-shopping-cart"></i>
+                <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="floating-shape shape-1"></div>
+    <div class="floating-shape shape-2"></div>
+    <div class="floating-shape shape-3"></div>
+    <div class="hero-content">
+        <h1 class="hero-title">ArtPulse</h1>
+        <p class="hero-subtitle">Где современное искусство встречается с инновациями и экспериментами</p>
+        <a href="#" class="hero-btn">Исследовать коллекции <i class="fas fa-arrow-right"></i></a>
+    </div>
+</section>
+
+<!-- Featured Artworks -->
+<section class="section featured-artworks">
+    <div class="section-container">
+        <div class="section-header">
+            <h2 class="section-title">Избранные работы</h2>
+            <p class="section-subtitle">Откройте для себя новаторские произведения от художников, расширяющих границы современного искусства</p>
+        </div>
+        <div class="artworks-grid" id="artworks-grid">
+            <!-- Генерируется через JS или вставляется вручную -->
+        </div>
+    </div>
+</section>
+
+<!-- Current Exhibition -->
+<section class="section current-exhibition">
+    <div class="section-container">
+        <div class="section-header">
+            <h2 class="section-title">Текущая выставка</h2>
+            <p class="section-subtitle">«Цифровые горизонты: Искусство в эпоху ИИ»</p>
+        </div>
+        <div class="carousel-container">
+            <div class="carousel-slide"></div>
+            <button class="carousel-nav carousel-prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="carousel-nav carousel-next"><i class="fas fa-chevron-right"></i></button>
+            <button class="carousel-play"><i class="fas fa-pause"></i></button>
+            <div class="carousel-indicators"></div>
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+<section class="section about-us">
+    <div class="section-container">
+        <div class="about-container">
+            <div class="about-content">
+                <h2>Формируем будущее искусства</h2>
+                <p>ArtPulse — это больше, чем галерея: это культурная лаборатория, где традиционная эстетика встречается с передовыми экспериментами.</p>
+                <p>Наша миссия — создавать диалог между признанными мастерами и новыми голосами.</p>
+                <a href="#" class="about-btn">Узнать больше о нас</a>
+            </div>
+            <div class="about-images">
+                <div class="about-grid">
+
+                    <img src="assets/images/about/1761489863.png" alt="Художественная Студия" class="about-image">
+                </div>
+                <div class="quote-box">
+                    <p class="quote-text">«Искусство должно утешать тревожных и тревожить утешённых.»</p>
+                    <p class="quote-author">— Сезар А. Крус</p>
+                </div>
+            </div>
+        </div>
+        <!-- Developer Info -->
+        <div class="developer-section section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">О разработчике</h2>
+                </div>
+                <div class="developer-card">
+                    <img src="assets/images/developer.jpg" alt="Фото разработчика" class="developer-avatar">
+                    <div class="developer-content">
+                        <h3>Александр Жучков</h3>
+                        <p class="developer-role">Студент ННГАСУ</p>
+                        <p>Автор проекта ArtPulse — цифровой галереи, объединяющей искусство и технологии.</p>
+                        <div class="developer-links">
+                            <a href="https://github.com/alexhet" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="https://t.me/" target="_blank"><i class="fab fa-telegram"></i> Telegram</a>
+                            <a href="alexandrzhuchkov69@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-grid">
+            <div class="footer-column">
+                <div class="logo"><span>Art</span><span>Pulse</span></div>
+                <p>Переосмысливаем современное искусство через инновации, эксперименты и видение.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Навигация</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Выставки</a></li>
+                    <li><a href="#">Художники</a></li>
+                    <li><a href="#">Коллекции</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Связаться</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Рассылка</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Посетите нас</h3>
+                <p>123 Творческий проспект<br>Нью-Йорк, NY 10001<br>Открыто: Вт–Вс, 11:00–19:00</p>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2025 ArtPulse Gallery. Все права защищены.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Modal for Login/Register -->
+<div id="authModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Вход / Регистрация</h2>
+
+        <!-- Tabs -->
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="login">Вход</button>
+            <button class="tab-btn" data-tab="register">Регистрация</button>
+        </div>
+
+        <!-- Login Form -->
+        <form id="loginForm" class="auth-form">
+            <input type="email" placeholder="Email" required />
+            <input type="password" placeholder="Пароль" required />
+            <button type="submit">Войти</button>
+            <p><a href="#" class="forgot-password">Забыли пароль?</a></p>
+        </form>
+
+        <!-- Register Form -->
+        <form id="registerForm" class="auth-form" style="display:none;">
+            <input type="text" placeholder="Имя" required />
+            <input type="email" placeholder="Email" required />
+            <input type="password" placeholder="Пароль" required />
+            <input type="password" placeholder="Подтвердите пароль" required />
+            <button type="submit">Зарегистрироваться</button>
+        </form>
+    </div>
+</div>
+
+<!-- Logout Confirmation Modal -->
+<div id="logoutModal" class="modal">
+    <div class="modal-content logout-modal">
+        <div class="modal-header">
+            <i class="fas fa-sign-out-alt"></i>
+            <h3>Вы уверены?</h3>
+        </div>
+        <p>Вы собираетесь выйти из аккаунта. Ваше избранное будет сохранено.</p>
+        <div class="modal-actions">
+            <button id="cancelLogout" class="btn-secondary">
+                <i class="fas fa-times"></i> Отмена
+            </button>
+            <button id="confirmLogout" class="btn-primary">
+                <i class="fas fa-sign-out-alt"></i> Выйти
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Scripts -->
+<script src="js/components/navbar.js"></script>
+<script src="js/components/favorites.js"></script>
+<script src="js/components/carousel.js"></script>
+<script src="js/main.js"></script>
+<script src="js/components/auth.js"></script>
+</body>
+</html>
